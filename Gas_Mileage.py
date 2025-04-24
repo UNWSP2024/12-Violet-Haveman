@@ -5,8 +5,7 @@
  # Use the following formula to calculate miles per gallon:  MPG = miles / gallons.
 
 
-import tkinter
-from tkinter import messagebox
+
 
 import tkinter as tk
 from tkinter import messagebox
@@ -68,5 +67,8 @@ class GasMileageGUI:
             messagebox.showerror("Input error", f"Invalid input: {e}")
 
 # Run the program
-GasMileageGUI()
+if __name__ == '__main__':
+    GasMileageGUI()
+
+
 
